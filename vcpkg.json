@@ -1,0 +1,15 @@
+{
+  "dependencies": [
+    "cmakerc",
+    {
+      "name": "imgui",
+      "default-features": true,
+      "features": [ "docking-experimental" ]
+    },
+    "sfml",
+    "imgui-sfml",
+    "glew",
+    "glm",
+    "nlohmann-json"
+  ]
+}
